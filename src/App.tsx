@@ -1,7 +1,5 @@
 import React from 'react';
-
 import Footer from './components/footer/Footer';
-
 import './App.css';
 import Fifthpage from './components/fifthpage/Fifthpage';
 import Fourthpage from './components/fourthpage/Fourthpage';
@@ -11,9 +9,9 @@ import Navbar from './components/header/Navbar';
 
 const App = () => {
   return (
-    <div className="App">
+    <>
       <Fifthpage/>
-    </div>
+    </>
   );
 }
 

@@ -20,7 +20,6 @@ const App = () => {
       <Fourthpage />
       <Page2 />
       <Fifthpage/>
-       <Footer/>
     </>
     
   )
@@ -28,7 +27,5 @@ const App = () => {
 
 
 }
- 
- export default App;
 
-
+export default App;

@@ -1,5 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
+import Header from "./Header";
 import first from "./NavbarImage/first.png";
 import logo from "./NavbarImage/logo.png";
 
@@ -86,6 +87,7 @@ const Navbar = () => {
           </Grid>
         </Grid>
       </div>
+      <Header/>
       <Grid container>
         <Grid item lg={12} md={12} sm={12} xs={12}>
           <img

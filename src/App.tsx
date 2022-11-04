@@ -1,14 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
+import Footer from './components/footer/Footer';
 import './App.css';
 import Fifthpage from './components/fifthpage/Fifthpage';
+import Fourthpage from './components/fourthpage/Fourthpage';
+import Page2 from './components/fourthpage/Page2';
+import Navbar from './components/header/Navbar';
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
+    <>
+      <Navbar />
+      <Fourthpage />
+      <Page2 />
       <Fifthpage/>
-    </div>
-  );
-}
+        <Footer/>
+    </>
+    
+  )
 
-export default App;
+
+  }
+  export default App;
+
+

@@ -1,0 +1,29 @@
+#inputid{
+    width: 22em;
+    padding: 1.4em 2em;
+    margin: 1em 0em;
+    border-radius: 2em;
+    outline: none;
+    border:1px solid white;
+    z-index: 1;
+}
+#btnsubscribe{
+background-color:#ff736a ;
+border-radius: 2em;
+width: 10em;
+padding: 1.1em 2em;
+margin-left: -3.5em;
+z-index: 2;
+}
+
+
+start footer
+#Handletext{
+    margin: 1em;
+    padding: 1em 2em;
+    border: 1px solid #01c3ff;
+    border-radius: 2em;
+    background-color: white;
+    outline: none;
+    width:10em;
+}

@@ -6,12 +6,14 @@ import Navbar from './components/header/Navbar';
 
 function App() {
   return (
-    <div className="App">
-        <Navbar/>
-     <Fourthpage/>
-     <Page2/>
-    </div>
+    <>
+      <Navbar />
+      <Fourthpage />
+      <Page2 />
+    </>
+    
+  )
 
 
-
-export default App;
+  }
+  export default App;
